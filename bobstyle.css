@@ -1,0 +1,146 @@
+
+
+.grad1 {    
+			height: 50px;
+			border: 0;
+			background: orange; /* For browsers that do not support gradients */    
+			background: -webkit-linear-gradient(left, orange , yellow); /* For Safari 5.1 to 6.0 */
+			background: -o-linear-gradient(right, orange, yellow); /* For Opera 11.1 to 12.0 */
+			background: -moz-linear-gradient(right, orange, yellow); /* For Firefox 3.6 to 15 */
+			background: linear-gradient(to right, orange, yellow); /* Standard syntax (must be last) */
+		}
+
+
+
+body 	{	font-family: "Times New Roman", Georgia, Serif;
+			height: 1000px;
+	
+	
+		}
+
+nav 	{	
+			display:block;
+		}
+		
+nav h4  {	
+			text-align: center;
+			line-height: 30px;
+			font-family: Helvetica, Arial, Sans-Serif; 
+			color: black;
+
+		}	
+		
+nav h4 a {
+			background-color: yellow;
+			display: inline-block;
+			width: 120px;
+			height: 30px;
+			text-decoration: none;
+			
+		}
+			
+nav h4 a:link {
+				color: black;
+					
+						
+			  }
+		
+nav h4 a:hover {
+	
+				display: inline-block;
+				width: 120px;
+				height: 30px;
+				background-color: red;
+				color: white;
+				}
+						
+nav hgroup h4 a:active {
+							background-color: darkgreen;
+							color: white;
+						}
+
+nav h4 a:visited {	
+					background-color: orange;
+					color: white;
+						
+				}	
+	
+	
+.navbutton { 	
+
+			display: inline-block;
+			width: 120px;
+			height: 30px;
+			border: 0;
+			}
+
+		
+#h1center	{
+				text-align: center;
+			}	
+
+.basicrule {
+			height: 1px;
+			width: 75%;
+			color: black;
+
+			}
+
+
+h2 {
+		text-align: center;
+	}	
+
+
+h3 {
+	text-align: center;
+	}
+
+		
+.textcentered {
+				text-align: center;
+				}
+
+
+footer {
+		display:block;
+			
+		}	
+		
+footer h4 {
+			text-align: center;
+			font-family: Helvetica, Arial, Sans-Serif; 
+			color: black;
+			height: 50px;
+			border: 0;
+			background: orange; /* For browsers that do not support gradients */    
+			background: -webkit-linear-gradient(left, orange , yellow); /* For Safari 5.1 to 6.0 */
+			background: -o-linear-gradient(right, orange, yellow); /* For Opera 11.1 to 12.0 */
+			background: -moz-linear-gradient(right, orange, yellow); /* For Firefox 3.6 to 15 */
+			0background: linear-gradient(to right, orange, yellow); /* Standard syntax (must be last) */
+			line-height: 50px;
+		
+					
+					}
+
+footer h4 a {
+				display: inline;
+				text-decoration:none;
+				text-align: center; 
+				color: red;
+
+			}
+			
+
+.current {
+			border: 1px solid black;
+		 }	
+
+			
+.current2 {
+			color: black;
+		   }	
+
+
+
+
